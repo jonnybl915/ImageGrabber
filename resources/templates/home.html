@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <form action="/scrape" method="post">
+        <input type="text" size="50" placeholder="Type In Address" name="address">
+        <button type="submit">Submit</button>
+    </form>
+{{#images}}
+{{{.}}}
+{{/images}}
+</body>
+</html>
